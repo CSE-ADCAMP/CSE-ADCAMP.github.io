@@ -15,12 +15,11 @@ a {
   padding: 10px;
   background-color: #9fd3c7;
   display: flex;
+  border-radius: 20px;
 }
 .assign img {
   width: 200px;
   margin: 10px;
   border: 2px solid salmon;
-  
 }
-
-
+  
