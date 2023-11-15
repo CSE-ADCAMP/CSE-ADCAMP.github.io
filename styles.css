@@ -1,11 +1,13 @@
 body {
   background-color: #385170;
   font-family: Arial, Helvetica, sans-serif;
+  display: flex;
 }
 
 h1 {
   color: #ececec;
   text-align: center:
+  width: 100%;
 }
   
 a {
@@ -26,8 +28,11 @@ a: visited {
   margin: 10px;
   padding: 10px;
   background-color: #9fd3c7;
-  display: flex;
+  display: block;
   border-radius: 20px;
+  width: 20%;
+  box-shadow: 8px 8px black;
+  
 }
   
 .assign img {
