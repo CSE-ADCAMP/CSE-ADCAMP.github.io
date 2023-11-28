@@ -11,22 +11,19 @@ h1 {
   width: 100%;
   display: block;
 }
+
+h1:hover{
+  color: hotpink;
+  text-align: center;
+  width: 100%;
+  display: block;
+}
   
 a {
   text-decoration: none;
   color: black;
 }
-  
-a:hover {
-  color: #0000FF;
-  text-decoration: none;
-  
-}
-  
-a: visited {
-  color: #800080;
-}
-  
+
 .assign {
   margin: 10px;
   padding: 10px;
@@ -42,5 +39,11 @@ a: visited {
   width: 200px;
   margin: 10px;
   border: 2px solid #00008B;
+}
+
+.assign img:hover {
+  width: 200px;
+  margin: 10px;
+  border: 2px dotted yellow;
 }
   
